@@ -4,11 +4,10 @@ using namespace std;
 
 class ClasseD {
     private:
-        int D1;      
-        string D2;   
+        int D1;
+        string D2;
 
     public:
-        // Métodos Get e Set para os atributos
         int getD1() { return D1; }
         void setD1(int val) { D1 = val; }
 
@@ -21,5 +20,9 @@ class ClasseD {
 
         void MD2() {
             cout << "MD2" << endl;
+        }
+
+        void MD3() {
+            cout << "MD3" << endl;
         }
 };
